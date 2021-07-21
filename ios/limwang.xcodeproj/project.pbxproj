@@ -12,6 +12,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		17270FE0ACA4424684A0D0B3 /* libPods-limwang-limwangTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 958937EE872DAB79B6205B06 /* libPods-limwang-limwangTests.a */; };
+		3AD5891326A5843100FB9533 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AD588F826A5843100FB9533 /* FontAwesome.ttf */; };
+		3AD5891426A5843100FB9533 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AD588F826A5843100FB9533 /* FontAwesome.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		A442DFA169BCE83EE50F714B /* libPods-limwang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 607800D817140CA2D3292FEE /* libPods-limwang.a */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = limwang/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = limwang/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = limwang/main.m; sourceTree = "<group>"; };
+		3AD588F826A5843100FB9533 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		3BAAE8983CF86F50165A5A3D /* Pods-limwang-limwangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limwang-limwangTests.release.xcconfig"; path = "Target Support Files/Pods-limwang-limwangTests/Pods-limwang-limwangTests.release.xcconfig"; sourceTree = "<group>"; };
 		607800D817140CA2D3292FEE /* libPods-limwang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-limwang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		775F550DFCDBC5D761E3E0FF /* Pods-limwang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-limwang.debug.xcconfig"; path = "Target Support Files/Pods-limwang/Pods-limwang.debug.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
+				3AD588EC26A5843100FB9533 /* Fonts */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -104,6 +108,15 @@
 				958937EE872DAB79B6205B06 /* libPods-limwang-limwangTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3AD588EC26A5843100FB9533 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3AD588F826A5843100FB9533 /* FontAwesome.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -233,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD5891426A5843100FB9533 /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AD5891326A5843100FB9533 /* FontAwesome.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
@@ -448,6 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ2C73FQ38;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = limwang/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -475,6 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQ2C73FQ38;
 				INFOPLIST_FILE = limwang/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
